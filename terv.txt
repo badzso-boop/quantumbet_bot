@@ -1,0 +1,13 @@
+1. Alap parancsok
+    - statisztika felvitele
+        . datum -> -d yyyy-mm-dd ==> date
+        . tet -> -p 5% ==> penz
+        . odds -> -o 2.6 ==> odds
+        . tipp -> -t "tipp szovege;" ==> tipp
+        . tipp vege -> -v "tipp vege;" ==> vege
+        . tippelo -> -u felhasznalonev ==> user
+        . eredmeny -> -e nyert/vesztett  ==> eredmeny
+        . tipus -> -f free ==> felhasznalok
+    - minden nap 10kor kuldd egy osszesitest az aznapi statisztibkakrol
+    - az adatokat egy sql adatbazisba menti
+    - barki irhat a botnak a felhasznalonevek alapjan lesznek eltarolva az adminok free tippesek vagy elofizetok
